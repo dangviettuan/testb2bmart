@@ -16,12 +16,7 @@
     "*.{js,vue}": "eslint",
     "*.{css,vue}": "stylelint"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
+
   "dependencies": {
     "@namiq/chat-widget": "^0.0.34",
     "@nuxt/typescript-runtime": "^2.0.1",
