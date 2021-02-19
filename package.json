@@ -18,13 +18,12 @@
   },
 
   "dependencies": {
-    "@namiq/chat-widget": "^0.0.34",
+    "@namiq/chat-widget": "^0.0.36",
     "@nuxt/typescript-runtime": "^2.0.1",
     "@nuxtjs/axios": "^5.12.5",
     "@nuxtjs/pwa": "^3.3.5",
     "ant-design-vue": "^1.7.2",
-    "nuxt": "^2.14.12",
-    "slate-hyperscript": "^0.59.0"
+    "nuxt": "^2.14.12"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",

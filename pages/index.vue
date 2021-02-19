@@ -21,20 +21,33 @@
           GitHub
         </a>
       </div>
+      <form>
+    <input type="text" ref="my_input">
+    <button @click.prevent="getFormValues()">Change ProductId</button>
+  </form>
     </div>
     <div id="chat-widget"></div>
     <client-only placeholder="loading...">
           <NamiQWidget/>
 
     </client-only>
+    
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
+import NamiQChatWidget from '@namiq/chat-widget';
 
 
 export default Vue.extend({
+
+  methods: {
+    getFormValues () {
+      // console.log(this.$refs['my_input'].value);
+      NamiQChatWidget.setProductId((this.$refs['my_input'] as any).value)
+    }
+  }
 })
 </script>
 

@@ -19,6 +19,7 @@ var myMixin = {
       userBackgroundColor: '#3596f0',
       assistTextColor: '#0065c3',
       assistBackgroundColor: '#c6e3ff',
+      defaultProductID: 249
     } as any)
   },
   methods: {
