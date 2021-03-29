@@ -10,7 +10,7 @@ var myMixin = {
   created: function () {
     NamiQChatWidget.init({
       selector: '#chat-widget',
-      socketUrl: 'https://dev-api.namiq.io/1.0.0/namiQ/chat',
+      socketUrl: 'https://biq.namiq.io/1.0.0/namiQ/chat?apikey=TL7u0Qgp2GLA1aW4vQe1Q2XXlxVnYSKY',
       language: 'vi',
       showCloseButton: true,
       showFullScreenButton: true,
@@ -19,7 +19,8 @@ var myMixin = {
       userBackgroundColor: '#3596f0',
       assistTextColor: '#0065c3',
       assistBackgroundColor: '#c6e3ff',
-      defaultProductID: 249
+      defaultProductID: 249,
+      logoUrl: 'https://yt3.ggpht.com/ytc/AAUvwnjiNb7nvwY93zJbw6bdLiRYEKquhqyYlzTIP3Qh=s88-c-k-c0x00ffffff-no-rj'
     } as any)
   },
   methods: {
