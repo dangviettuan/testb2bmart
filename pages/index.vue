@@ -92,6 +92,7 @@ export default Vue.extend({
   justify-content: center;
   align-items: center;
   text-align: center;
+  background: orange;
 }
 
 .title {
@@ -115,4 +116,5 @@ export default Vue.extend({
 .links {
   padding-top: 15px;
 }
+
 </style>

@@ -18,7 +18,7 @@
   },
 
   "dependencies": {
-    "@namiq/chat-widget": "^0.1.4",
+    "@namiq/chat-widget": "^0.1.6",
     "@nuxt/typescript-runtime": "^2.0.1",
     "@nuxtjs/axios": "^5.12.5",
     "@nuxtjs/pwa": "^3.3.5",
