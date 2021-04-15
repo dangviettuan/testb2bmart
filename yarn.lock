@@ -1607,10 +1607,10 @@
   resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.10.146.tgz#dd039865dfb21157a4b22c486e78da8957dee05d"
   integrity sha512-qQZ4J58J2VMe/XRpr2YRDusQB9uRBJ1SjJB76x7uH94t9hqxjVVxn2qL99Bl+ERbfrACZ9peGn2uamt4ponqZQ==
 
-"@namiq/chat-widget@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@namiq/chat-widget/-/chat-widget-0.1.4.tgz#67a0a2ad413999449579f3d49ef320cdea8435f1"
-  integrity sha512-QsfZV+0j+r7SUT/oa3ShllHBAqllcvz0QxfkrSMr0vzkItSBgR2Kw+J3B2Sg9yDAzahaQNqnNwXQKAUEWQ1l9g==
+"@namiq/chat-widget@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@namiq/chat-widget/-/chat-widget-0.1.6.tgz#d76a62c9281d63d1cebab1ba6c87acaa649831b9"
+  integrity sha512-WIbZJu7ji1uqHYCKqqMrljfCJAIq7sSY7hgnO3sCIWaqAb7go/S3qpKMd6rqROgKud/Zguphzds8Uo6tMJ8lfg==
   dependencies:
     "@material-ui/core" "^4.11.2"
     "@material-ui/icons" "^4.11.2"
