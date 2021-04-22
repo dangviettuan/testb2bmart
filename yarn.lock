@@ -1554,13 +1554,6 @@
     react-is "^16.8.0 || ^17.0.0"
     react-transition-group "^4.4.0"
 
-"@material-ui/icons@^4.11.2":
-  version "4.11.2"
-  resolved "https://registry.yarnpkg.com/@material-ui/icons/-/icons-4.11.2.tgz#b3a7353266519cd743b6461ae9fdfcb1b25eb4c5"
-  integrity sha512-fQNsKX2TxBmqIGJCSi3tGTO/gZ+eJgWmMJkgDiOfyNaunNaxcklJQFaFogYcFl0qFuaEz1qaXYXboa/bUXVSOQ==
-  dependencies:
-    "@babel/runtime" "^7.4.4"
-
 "@material-ui/styles@^4.11.3":
   version "4.11.3"
   resolved "https://registry.yarnpkg.com/@material-ui/styles/-/styles-4.11.3.tgz#1b8d97775a4a643b53478c895e3f2a464e8916f2"
@@ -1612,13 +1605,12 @@
   resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.10.146.tgz#dd039865dfb21157a4b22c486e78da8957dee05d"
   integrity sha512-qQZ4J58J2VMe/XRpr2YRDusQB9uRBJ1SjJB76x7uH94t9hqxjVVxn2qL99Bl+ERbfrACZ9peGn2uamt4ponqZQ==
 
-"@namiq/chat-widget@^0.1.11":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@namiq/chat-widget/-/chat-widget-0.1.11.tgz#3dff6485b57aa6914a06d8272736767e0e4a2189"
-  integrity sha512-pX0IDOpMa2IokJQGz7YZ2Mm6T/9DpSXKBWoQE2ZM8tRcM4EKP3hT00DWjAX/ysOxa1kr8YHcCkFHsUXB1JuClw==
+"@namiq/chat-widget@^0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@namiq/chat-widget/-/chat-widget-0.1.12.tgz#4fe5e61de0b827461fc4e7813b4e46045b85416e"
+  integrity sha512-HXEZ5hWSVZ/M0LvvAq4pcP5xAgCdNPUCLZo1PwNiSXI49R5s7XrFfP0GTtm/BSY+q8ZBA1UNahdwStLzOiyuJw==
   dependencies:
     "@material-ui/core" "^4.11.2"
-    "@material-ui/icons" "^4.11.2"
     "@popperjs/core" "^2.9.2"
     "@reduxjs/toolkit" "1.5.1"
     "@udecode/slate-plugins" "^0.75.2"
