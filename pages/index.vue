@@ -1,43 +1,20 @@
 <template>
   <div class="container">
-     <h1>Home page</h1>
-    <NuxtLink to="/about">
-      About (internal link that belongs to the Nuxt App)
-    </NuxtLink>
-    <a href="https://nuxtjs.org">External Link to another page</a>
-    <div>
-      <Logo />
-      <h1 class="title">testb2bmart</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-      <form>
-    <input type="text" ref="my_input">
-    <button @click.prevent="getFormValues()">Change ProductId</button>
-  </form>
-  <button @click.prevent="openBanner()">Open Banner</button>
-    </div>
-    <div id="chat-widget"></div>
-    <client-only placeholder="loading...">
-          <NamiQWidget/>
+    <h1>I am the parent view</h1>
+    <nav>
+      <ul>
+        <li>
+          <NuxtLink to="/child">Child</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/child2">Child 2</NuxtLink>
+        </li>
+      </ul>
+    </nav>
 
-    </client-only>
-    
+
+        <NuxtChild  />
+
   </div>
 </template>
 
