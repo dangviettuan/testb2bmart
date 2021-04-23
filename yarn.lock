@@ -1605,10 +1605,10 @@
   resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.10.146.tgz#dd039865dfb21157a4b22c486e78da8957dee05d"
   integrity sha512-qQZ4J58J2VMe/XRpr2YRDusQB9uRBJ1SjJB76x7uH94t9hqxjVVxn2qL99Bl+ERbfrACZ9peGn2uamt4ponqZQ==
 
-"@namiq/chat-widget@^0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@namiq/chat-widget/-/chat-widget-0.1.12.tgz#4fe5e61de0b827461fc4e7813b4e46045b85416e"
-  integrity sha512-HXEZ5hWSVZ/M0LvvAq4pcP5xAgCdNPUCLZo1PwNiSXI49R5s7XrFfP0GTtm/BSY+q8ZBA1UNahdwStLzOiyuJw==
+"@namiq/chat-widget@^0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@namiq/chat-widget/-/chat-widget-0.1.14.tgz#06cfafe9f2a9bbc2460ca93c01965fe66fbaf432"
+  integrity sha512-iZ64SK0LANy75RBKxQGH2Ccf7ZaJdMGOCIqqj6cFkMSw2md84+B6CS8cjyDZfwvJzZaerOj4vLD3xgD8qYoP9A==
   dependencies:
     "@material-ui/core" "^4.11.2"
     "@popperjs/core" "^2.9.2"
