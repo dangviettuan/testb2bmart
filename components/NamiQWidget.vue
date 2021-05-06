@@ -10,7 +10,7 @@ var myMixin = {
   created: function () {
     NamiQChatWidget.init({
       selector: '#chat-widget',
-      socketUrl: 'https://biq.namiq.io/1.0.0/namiQ/chat?apikey=TL7u0Qgp2GLA1aW4vQe1Q2XXlxVnYSKY',
+      socketUrl: 'https://biq.namiq.io/1.0.0/namiQ/chat',
       language: 'vi',
       showCloseButton: true,
       showFullScreenButton: true,
@@ -21,7 +21,8 @@ var myMixin = {
       assistBackgroundColor: '#c6e3ff',
       defaultProductID: 249,
       logoUrl: 'https://b2bmart.vn/_nuxt/img/logo.3c0376c.png',
-      conversationBackgroundColor: '#000'
+      conversationBackgroundColor: '#000',
+      apiKey: 'TL7u0Qgp2GLA1aW4vQe1Q2XXlxVnYSKY'
     } as any)
   },
   methods: {
