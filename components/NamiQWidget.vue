@@ -10,7 +10,7 @@ var myMixin = {
   created: function () {
     NamiQChatWidget.init({
       selector: '#chat-widget',
-      socketUrl: 'https://biq.namiq.io/1.0.0/namiQ/chat',
+      socketUrl: 'https://skm-sandbox.namiq.io/1.0.0/namiQ/chat',
       language: 'vi',
       showCloseButton: true,
       showFullScreenButton: true,
