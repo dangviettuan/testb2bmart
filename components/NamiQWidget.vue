@@ -7,10 +7,14 @@ import Vue from 'vue';
 import NamiQChatWidget from '@namiq/chat-widget';
 
 var myMixin = {
-  created: function () {
+  mounted: function () {
+    const checkChanged = (eventName: string, payload: any) => {
+      console.log(eventName, payload)
+
+    }
     NamiQChatWidget.init({
       selector: '#chat-widget',
-      socketUrl: 'https://skm-sandbox.namiq.io/1.0.0/namiQ/chat',
+      socketUrl: 'https://dev-api.namiq.io/1.0.0/namiQ/chat',
       language: 'vi',
       showCloseButton: true,
       showFullScreenButton: true,
@@ -22,7 +26,8 @@ var myMixin = {
       defaultProductID: 249,
       logoUrl: 'https://b2bmart.vn/_nuxt/img/logo.3c0376c.png',
       conversationBackgroundColor: '#000',
-      apiKey: 'TL7u0Qgp2GLA1aW4vQe1Q2XXlxVnYSKY'
+      apiKey: 'TL7u0Qgp2GLA1aW4vQe1Q2XXlxVnYSKY',
+      onWidgetEvent: checkChanged
     } as any)
   },
   methods: {
