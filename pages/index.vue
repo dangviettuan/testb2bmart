@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <h1>I am the parent view</h1>
+    <button @click="login()">Login</button>
     <nav>
       <ul>
         <li>
@@ -12,25 +13,28 @@
       </ul>
     </nav>
 
-
-        <NuxtChild  />
-
+    <NuxtChild />
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import NamiQChatWidget from '@namiq/chat-widget';
-
+import Vue from 'vue'
+import NamiQChatWidget from '@namiq/chat-widget'
 
 export default Vue.extend({
-
   methods: {
-    getFormValues () {
+    login() {
+      NamiQChatWidget.login({
+        consumerName: 'Test Nhẹ cái nò 3',
+        consumerPhone: '123465',
+        consumerEmail: 'test@gmail.com',
+      })
+    },
+    getFormValues() {
       // console.log(this.$refs['my_input'].value);
       NamiQChatWidget.setProductId((this.$refs['my_input'] as any).value)
     },
-    openBanner () {
+    openBanner() {
       NamiQChatWidget.openBanner(`<style>
   @media screen and (min-width: 525px) {
     .ad {
@@ -61,8 +65,8 @@ export default Vue.extend({
       
     </div>
   </section>`)
-    }
-  }
+    },
+  },
 })
 </script>
 
@@ -98,5 +102,4 @@ export default Vue.extend({
 .links {
   padding-top: 15px;
 }
-
 </style>

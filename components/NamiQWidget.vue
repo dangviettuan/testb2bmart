@@ -3,18 +3,17 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import NamiQChatWidget from '@namiq/chat-widget';
+import Vue from 'vue'
+import NamiQChatWidget from '@namiq/chat-widget'
 
 var myMixin = {
   mounted: function () {
     const checkChanged = (eventName: string, payload: any) => {
       console.log(eventName, payload)
-
     }
     NamiQChatWidget.init({
       selector: '#chat-widget',
-      socketUrl: 'https://dev-api.namiq.io/1.0.0/namiQ/chat',
+      socketUrl: 'https://biq.namiq.io/1.0.0/namiQ/chat',
       language: 'vi',
       showCloseButton: true,
       showFullScreenButton: true,
@@ -27,18 +26,18 @@ var myMixin = {
       logoUrl: 'https://b2bmart.vn/_nuxt/img/logo.3c0376c.png',
       conversationBackgroundColor: '#000',
       apiKey: 'TL7u0Qgp2GLA1aW4vQe1Q2XXlxVnYSKY',
-      onWidgetEvent: checkChanged
+      onWidgetEvent: checkChanged,
     } as any)
   },
   methods: {
     hello: function () {
       console.log('hello from mixin!')
-    }
-  }
+    },
+  },
 }
 
 export default Vue.extend({
-  mixins: [myMixin]
+  mixins: [myMixin],
 })
 </script>
 
